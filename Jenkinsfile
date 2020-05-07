@@ -4,7 +4,7 @@ pipeline
   agent any
   tools 
   {
-      Python ‘Python3’
+      Python 'Python3'
   }
   stages 
   {
@@ -38,7 +38,7 @@ pipeline
                 
             }
            }
-           stage (‘TestandPackage’) 
+           stage ('TestandPackage') 
 
            {
 
