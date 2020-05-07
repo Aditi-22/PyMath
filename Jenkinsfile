@@ -41,7 +41,8 @@ pipeline
 
            {
 
-            steps {
+            steps
+             {
 
                 //to test and package the project
                    sh 'python3 test_math_func.py'
@@ -50,10 +51,9 @@ pipeline
                 //packaging
 
                 sh 'pyinstaller math_func.py'
-
-            }
+             }
           }
 
        }
 
-}
+  }
