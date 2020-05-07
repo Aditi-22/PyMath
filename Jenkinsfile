@@ -32,7 +32,7 @@ pipeline
            {
 
             steps {
-                    sh ‘python3 math_func.py'
+                    sh 'python3 math_func.py'
 
 
                 
@@ -44,12 +44,12 @@ pipeline
             steps {
 
                 //to test and package the project
-                   sh ‘python3 test_math_func.py'
+                   sh 'python3 test_math_func.py'
 
 
                 //packaging
 
-                sh ‘pyinstaller math_func.py’
+                sh 'pyinstaller math_func.py’
 
             }
           }
