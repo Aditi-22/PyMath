@@ -49,7 +49,7 @@ pipeline
 
                 //packaging
 
-                sh 'pyinstaller math_func.py’
+                sh 'pyinstaller math_func.py'
 
             }
           }
